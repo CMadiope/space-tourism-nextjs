@@ -5,8 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const router = useRouter();
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -21,17 +23,39 @@ const Navbar = () => {
         </Link>
         <div className='flex items-center gap-16'>
           <div>
-            <ul className='flex font-barlow text-xl gap-8 bg-white/10 text-white py-4 pl-10 px-6 md:w-full pr-28 max-sm:hidden'>
-              <li>
+            <ul className='flex font-barlow text-xl gap-8 bg-white/20 text-white py-4 pl-10 px-6 md:w-full pr-28 max-sm:hidden'>
+              <li
+                className={`${
+                  router.pathname == "/" ? " underline underline-offset-8" : ""
+                }`}
+              >
                 <Link href='/'>Home</Link>
               </li>
-              <li>
+              <li
+                className={`${
+                  router.pathname == "/destination"
+                    ? " underline underline-offset-8"
+                    : ""
+                }`}
+              >
                 <Link href='/destination'>Destination</Link>
               </li>
-              <li>
+              <li
+                className={`${
+                  router.pathname == "/crew"
+                    ? " underline underline-offset-8"
+                    : ""
+                }`}
+              >
                 <Link href='/crew'>Crew</Link>
               </li>
-              <li>
+              <li
+                className={`${
+                  router.pathname == "/technology"
+                    ? " underline underline-offset-8"
+                    : ""
+                }`}
+              >
                 <Link href='/technology'>Technology</Link>
               </li>
             </ul>
