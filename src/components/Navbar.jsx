@@ -49,7 +49,7 @@ const Navbar = () => {
         onClick={handleNav}
         className={
           nav
-            ? "overflow-y-hidden sm:hidden ease-in duration-300 absolute text-white/90 left-0 -top-10 w-full -bottom-10 min-h-screen bg-black/50 px-4 py-16 flex flex-col z-10"
+            ? "overflow-y-hidden sm:hidden ease-in duration-300 absolute text-white/90 left-0 -top-10 w-full -bottom-10 min-h-screen bg-black/90 px-4 py-16 flex flex-col z-10"
             : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
         }
       >
