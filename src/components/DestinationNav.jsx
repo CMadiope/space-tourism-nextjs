@@ -8,9 +8,6 @@ const DestinationNav = ({
   handleTitan,
   handleEuropa,
 }) => {
-  const router = useRouter();
-  // console.log(router);
-
   return (
     <div className=''>
       <ul className='font-barlow text-[16px] flex gap-10 justify-center uppercase text-white md:justify-start'>
