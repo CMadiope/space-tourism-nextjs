@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import moonPic from "../../../public/static/assets/destination/image-moon.png";
 import Image from "next/image";
 import DestinationInfo from "@/components/DestinationInfo";
+import moonHero from "../../../public/static/assets/destination/image-moon.png";
+import marsHero from "../../../public/static/assets/destination/image-mars.png";
+import europaHero from "../../../public/static/assets/destination/image-europa.png";
+import titanHero from "../../../public/static/assets/destination/image-titan.png";
 
 const Destination = () => {
   const [moon, setMoon] = useState(true);
@@ -58,13 +62,7 @@ const Destination = () => {
           <div className='flex-1 flex justify-center'>
             {moon && (
               <Image
-                src={`${
-                  moon
-                    ? "/static/assets/destination/image-moon.png"
-                    : "/static/assets/destination/image-moon.png"
-                }
-              
-              `}
+                src={moon ? moonHero : moonHero}
                 alt='destination'
                 width={300}
                 height={300}
@@ -73,13 +71,7 @@ const Destination = () => {
             )}
             {mars && (
               <Image
-                src={`${
-                  mars
-                    ? "/static/assets/destination/image-mars.png"
-                    : "/static/assets/destination/image-moon.png"
-                }
-              
-              `}
+                src={mars ? marsHero : moonHero}
                 alt='destination'
                 width={300}
                 height={300}
@@ -88,13 +80,7 @@ const Destination = () => {
             )}
             {europa && (
               <Image
-                src={`${
-                  europa
-                    ? "/static/assets/destination/image-europa.png"
-                    : "/static/assets/destination/image-moon.png"
-                }
-              
-              `}
+                src={europa ? europaHero : moonHero}
                 alt='destination'
                 width={300}
                 height={300}
@@ -103,13 +89,7 @@ const Destination = () => {
             )}
             {titan && (
               <Image
-                src={`${
-                  titan
-                    ? "/static/assets/destination/image-titan.png"
-                    : "/static/assets/destination/image-moon.png"
-                }
-              
-              `}
+                src={titan ? titanHero : moonHero}
                 alt='destination'
                 width={300}
                 height={300}
