@@ -79,7 +79,7 @@ const Technology = () => {
             />
             <TechInfo description={description} terminology={terminology} />
           </div>
-          <div className='flex justify-center '>
+          <div className='flex justify-center flex-1'>
             <style>
               {`
   .hero__desktop-image {

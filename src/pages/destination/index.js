@@ -54,7 +54,7 @@ const Destination = () => {
           Pick your destination
         </h1>
 
-        <div className='py-8 flex flex-col sm:flex-row max-sm:gap-8 md:gap-20'>
+        <div className='py-8 flex flex-col md:flex-row max-md:gap-8 md:gap-20'>
           <div className='flex-1 flex justify-center'>
             {moon && (
               <Image
@@ -68,7 +68,7 @@ const Destination = () => {
                 alt='destination'
                 width={300}
                 height={300}
-                className='sm:w-[350px] sm:height-[350px] md:w-[400px] md:height-[400px]'
+                className='sm:w-[350px]  md:w-[400px] '
               />
             )}
             {mars && (
@@ -83,7 +83,7 @@ const Destination = () => {
                 alt='destination'
                 width={300}
                 height={300}
-                className='sm:w-[350px] sm:height-[350px] md:w-[400px] md:height-[400px]'
+                className='sm:w-[350px]  md:w-[400px] '
               />
             )}
             {europa && (
@@ -98,7 +98,7 @@ const Destination = () => {
                 alt='destination'
                 width={300}
                 height={300}
-                className='sm:w-[350px] sm:height-[350px] md:w-[400px] md:height-[400px]'
+                className='sm:w-[350px]  md:w-[400px] '
               />
             )}
             {titan && (
@@ -113,7 +113,7 @@ const Destination = () => {
                 alt='destination'
                 width={300}
                 height={300}
-                className='sm:w-[350px] sm:height-[350px] md:w-[400px] md:height-[400px]'
+                className='sm:w-[350px]  md:w-[400px] '
               />
             )}
           </div>
@@ -124,7 +124,12 @@ const Destination = () => {
               handleTitan={handleTitan}
               handleMoon={handleMoon}
             />
-            <DestinationInfo moon={moon} mars={mars} europa={europa} titan={titan}/>
+            <DestinationInfo
+              moon={moon}
+              mars={mars}
+              europa={europa}
+              titan={titan}
+            />
           </div>
         </div>
       </div>
