@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import logo from "../../public/assets/shared/logo.svg";
-import menu from "../../public/assets/shared/icon-hamburger.svg";
+import logo from "../../public/static/assets/shared/logo.svg";
+import menu from "../../public/static/assets/shared/icon-hamburger.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";

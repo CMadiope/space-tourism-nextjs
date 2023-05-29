@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import launchMobile from "../../public/assets/technology/image-launch-vehicle-landscape.jpg";
-import lauchDesktop from "../../public/assets/technology/image-launch-vehicle-portrait.jpg";
+import launchMobile from "../../public/static/assets/technology/image-launch-vehicle-landscape.jpg";
+import lauchDesktop from "../../public/static/assets/technology/image-launch-vehicle-portrait.jpg";
 import TechNav from "@/components/TechNav";
-import spaceportMobile from "../../public/assets/technology/image-spaceport-landscape.jpg";
-import spaceportDesktop from "../../public/assets/technology/image-spaceport-portrait.jpg";
-import capsuleMobile from "../../public/assets/technology/image-space-capsule-landscape.jpg";
-import capsuleDesktop from "../../public/assets/technology/image-space-capsule-portrait.jpg";
+import spaceportMobile from "../../public/static/assets/technology/image-spaceport-landscape.jpg";
+import spaceportDesktop from "../../public/static/assets/technology/image-spaceport-portrait.jpg";
+import capsuleMobile from "../../public/static/assets/technology/image-space-capsule-landscape.jpg";
+import capsuleDesktop from "../../public/static/assets/technology/image-space-capsule-portrait.jpg";
 import TechInfo from "@/components/TechInfo";
 
 const Technology = () => {
@@ -65,7 +65,7 @@ const Technology = () => {
   };
 
   return (
-    <div className='bg-[url(/assets/technology/background-technology-mobile.jpg)] sm:bg-[url(/assets/technology/background-technology-tablet.jpg)] md:bg-[url(/assets/technology/background-technology-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
+    <div className='bg-[url(/static/assets/technology/background-technology-mobile.jpg)] sm:bg-[url(/static/assets/technology/background-technology-tablet.jpg)] md:bg-[url(/static/assets/technology/background-technology-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
       <div className='text-white pt-36'>
         <h1 className=' text-[18px] text-center sm:text-left sm:pl-24 md:pl-32 sm:text-[24px] md:text-[28px] uppercase pb-10'>
           space launch 101

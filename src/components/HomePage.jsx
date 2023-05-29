@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className='bg-[url(/assets/home/background-home-mobile.jpg)] sm:bg-[url(/assets/home/background-home-tablet.jpg)] md:bg-[url(/assets/home/background-home-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
+    <div className='bg-[url(/static/assets/home/background-home-mobile.jpg)] sm:bg-[url(/static/assets/home/background-home-tablet.jpg)] md:bg-[url(/static/assets/home/background-home-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
       <div className='flex max-sm:gap-10 sm:gap-4 max-md:flex-col justify-between text-white pt-36 md:pt-64 px-20 h-full'>
         <div className='flex flex-col items-center md:flex-1'>
           <p className='uppercase text-[16px] sm:text-[20px] md:text-[28px] font-barlow max-md:text-center'>

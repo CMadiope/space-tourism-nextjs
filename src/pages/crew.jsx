@@ -91,10 +91,10 @@ const Crew = () => {
     }
   };
 
-  //  console.log(title);
+
 
   return (
-    <div className='bg-[url(/assets/crew/background-crew-mobile.jpg)] sm:bg-[url(/assets/crew/background-crew-tablet.jpg)] md:bg-[url(/assets/crew/background-crew-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
+    <div className='bg-[url(/static/assets/crew/background-crew-mobile.jpg)] sm:bg-[url(/static/assets/crew/background-crew-tablet.jpg)] md:bg-[url(/static/assets/crew/background-crew-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
       <div className='text-white pt-36'>
         <h1 className='text-[18px] text-center sm:text-left sm:pl-24 md:pl-32 sm:text-[24px] md:text-[28px] uppercase pb-10'>
           Meet your crew
@@ -119,8 +119,8 @@ const Crew = () => {
                 <Image
                   src={`${
                     douglas
-                      ? "/assets/crew/image-douglas-hurley.png"
-                      : "/assets/crew/image-douglas-hurley.png"
+                      ? "/static/assets/crew/image-douglas-hurley.png"
+                      : "/static/assets/crew/image-douglas-hurley.png"
                   }`}
                   alt='douglas'
                   width={300}
@@ -132,8 +132,8 @@ const Crew = () => {
                 <Image
                   src={`${
                     mark
-                      ? "/assets/crew/image-mark-shuttleworth.png"
-                      : "/assets/crew/image-douglas-hurley.png"
+                      ? "/static/assets/crew/image-mark-shuttleworth.png"
+                      : "/static/assets/crew/image-douglas-hurley.png"
                   }`}
                   alt='mark'
                   width={300}
@@ -145,8 +145,8 @@ const Crew = () => {
                 <Image
                   src={`${
                     victor
-                      ? "/assets/crew/image-victor-glover.png"
-                      : "/assets/crew/image-douglas-hurley.png"
+                      ? "/static/assets/crew/image-victor-glover.png"
+                      : "/static/assets/crew/image-douglas-hurley.png"
                   }`}
                   alt='voctor'
                   width={300}
@@ -158,8 +158,8 @@ const Crew = () => {
                 <Image
                   src={`${
                     ansari
-                      ? "/assets/crew/image-anousheh-ansari.png"
-                      : "/assets/crew/image-douglas-hurley.png"
+                      ? "/static/assets/crew/image-anousheh-ansari.png"
+                      : "/static/assets/crew/image-douglas-hurley.png"
                   }`}
                   alt='ansari'
                   width={300}

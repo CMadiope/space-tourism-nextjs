@@ -1,6 +1,6 @@
 import DestinationNav from "@/components/DestinationNav";
 import React, { useState } from "react";
-import moonPic from "../../../public/assets/destination/image-moon.png";
+import moonPic from "../../../public/static/assets/destination/image-moon.png";
 import Image from "next/image";
 import DestinationInfo from "@/components/DestinationInfo";
 
@@ -48,7 +48,7 @@ const Destination = () => {
   };
 
   return (
-    <div className='bg-[url(/assets/destination/background-destination-mobile.jpg)] sm:bg-[url(/assets/destination/background-destination-tablet.jpg)] md:bg-[url(/assets/destination/background-destination-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
+    <div className='bg-[url(/static/assets/destination/background-destination-mobile.jpg)] sm:bg-[url(/static/assets/destination/background-destination-tablet.jpg)] md:bg-[url(/static/assets/destination/background-destination-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
       <div className='pt-36 text-white'>
         <h1 className='font-barlow text-[18px] text-center sm:text-left sm:pl-24 md:pl-32 sm:text-[24px] md:text-[28px] uppercase pb-10'>
           Pick your destination
@@ -60,8 +60,8 @@ const Destination = () => {
               <Image
                 src={`${
                   moon
-                    ? "/assets/destination/image-moon.png"
-                    : "/assets/destination/image-moon.png"
+                    ? "/static/assets/destination/image-moon.png"
+                    : "/static/assets/destination/image-moon.png"
                 }
               
               `}
@@ -75,8 +75,8 @@ const Destination = () => {
               <Image
                 src={`${
                   mars
-                    ? "/assets/destination/image-mars.png"
-                    : "/assets/destination/image-moon.png"
+                    ? "/static/assets/destination/image-mars.png"
+                    : "/static/assets/destination/image-moon.png"
                 }
               
               `}
@@ -90,8 +90,8 @@ const Destination = () => {
               <Image
                 src={`${
                   europa
-                    ? "/assets/destination/image-europa.png"
-                    : "/assets/destination/image-moon.png"
+                    ? "/static/assets/destination/image-europa.png"
+                    : "/static/assets/destination/image-moon.png"
                 }
               
               `}
@@ -105,8 +105,8 @@ const Destination = () => {
               <Image
                 src={`${
                   titan
-                    ? "/assets/destination/image-titan.png"
-                    : "/assets/destination/image-moon.png"
+                    ? "/static/assets/destination/image-titan.png"
+                    : "/static/assets/destination/image-moon.png"
                 }
               
               `}
