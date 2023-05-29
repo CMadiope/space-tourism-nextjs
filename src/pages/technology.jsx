@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import launchMobile from "../../public/assets/technology/image-launch-vehicle-landscape.jpg";
 import lauchDesktop from "../../public/assets/technology/image-launch-vehicle-portrait.jpg";
-import TechNav from "@/components/techNav";
+import TechNav from "@/components/TechNav";
 import spaceportMobile from "../../public/assets/technology/image-spaceport-landscape.jpg";
 import spaceportDesktop from "../../public/assets/technology/image-spaceport-portrait.jpg";
 import capsuleMobile from "../../public/assets/technology/image-space-capsule-landscape.jpg";
