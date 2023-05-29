@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import douglas from "../../public/assets/crew/image-douglas-hurley.png";
 import Image from "next/image";
 import CrewNav from "@/components/CrewNav";
 import CrewInfo from "@/components/CrewInfo";
@@ -63,9 +62,7 @@ const Crew = () => {
     setMark(false);
     setDouglas(false);
     setAnsari(false);
-    setDescription(
-      "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. "
-    );
+    
     if (victor) {
       setDouglas(true);
       setTitle("commander");
@@ -99,7 +96,7 @@ const Crew = () => {
   return (
     <div className='bg-[url(/assets/crew/background-crew-mobile.jpg)] sm:bg-[url(/assets/crew/background-crew-tablet.jpg)] md:bg-[url(/assets/crew/background-crew-desktop.jpg)] min-h-screen bg-no-repeat bg-center bg-cover'>
       <div className='text-white pt-36'>
-        <h1 className='font-barlow text-[18px] text-center sm:text-left sm:pl-24 md:pl-32 sm:text-[24px] md:text-[28px] uppercase pb-10'>
+        <h1 className='text-[18px] text-center sm:text-left sm:pl-24 md:pl-32 sm:text-[24px] md:text-[28px] uppercase pb-10'>
           Meet your crew
         </h1>
         <div className='flex flex-col-reverse sm:flex-col md:flex-row items-center flex-1'>
